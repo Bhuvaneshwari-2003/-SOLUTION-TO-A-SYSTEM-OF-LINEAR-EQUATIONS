@@ -16,13 +16,13 @@ End the program
 ## Program:
 ~~~
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-B=np.array([-9,4,-1])
+A=np.array([[1,3],[2,5]])
+B=np.array([5,-3])
 le=np.linalg.solve(A,B)
 print(le)
 ~~~
 ## Output:
-![GitHub Logo](mat.png)
+![GitHub Logo](mat1.png)
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
